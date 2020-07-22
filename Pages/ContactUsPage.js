@@ -74,6 +74,7 @@ class ContactUsPage extends Base {
 		this.alertMessage.waitForDisplayed()
 		expect(this.alertMessage).toBeDisplayed()
 	}
+	
 }
 
 export default new ContactUsPage()

@@ -22,22 +22,22 @@ class NewsLetterSubscriptionPage extends Base{
         this.subscriptionSubmitButton.click()
     }
     
-    get NewSubscriptionMsg() {
+    get SuccessMsg() {
         return $('.alert.alert-success')
     }
-    get AlreadySubscribedMsg() {
+    get ErrorMsg() {
         return $('.alert.alert-danger')
     }
     CheckNewSubscriptionMessage() {
-        this.NewSubscriptionMsg.waitForDisplayed()
-        expect(this.NewSubscriptionMsg).toHaveText('Newsletter : You have successfully subscribed to this newsletter.')
-        console.log(this.NewSubscriptionMsg.getText())
+        this.SuccessMsg.waitForDisplayed()
+        expect(this.SuccessMsg).toHaveText('Newsletter : You have successfully subscribed to this newsletter.')
+        console.log(this.SuccessMsg.getText())
     }
     CheckAlreadySubscribedMsg()
     {
-        this.AlreadySubscribedMsg.waitForDisplayed()
-        expect(this.AlreadySubscribedMsg).toHaveText('Newsletter : This email address is already registered.')
-        console.log(this.AlreadySubscribedMsg.getText())
+        this.ErrorMsg.waitForDisplayed()
+        expect(this.ErrorMsg).toHaveText('Newsletter : This email address is already registered.')
+        console.log(this.ErrorMsg.getText())
     }
 }
 
