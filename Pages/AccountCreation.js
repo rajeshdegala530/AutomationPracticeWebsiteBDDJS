@@ -3,6 +3,7 @@ import URL from './URL'
 import assert from 'assert'
 
 class AccountCreation extends Base {
+	
 	get Mr_element() {
 		return $('#id_gender1')
 	}
@@ -75,6 +76,7 @@ class AccountCreation extends Base {
 	get RegisterButton() {
 		return $('#submitAccount')
 	}
+	
 
 	SelectMr() {
 		this.Mr_element.waitForDisplayed()

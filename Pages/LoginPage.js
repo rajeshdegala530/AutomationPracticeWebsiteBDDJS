@@ -19,10 +19,24 @@ class LoginPage extends Base {
 	}
 	get FilledEmail() {
 		return $('#email.is_required.validate.form-control')
-	}
+    }
+    
+    get loginEmail(){
+        return $('#email.is_required.validate.account_input.form-control')
+    }
+
+    get loginpasswd(){
+        return $('#passwd.is_required.validate.account_input.form-control')
+    }
+
+    get SigninButton(){
+        return $('#SubmitLogin')
+    }
 
 	LoginPageTitle(LoginPage_Title) {
+
 		const LoginTitle = browser.getTitle()
+		this.loginEmail.waitForDisplayed()
 		assert.equal(LoginTitle, LoginPage_Title)
 		console.log('Page Title Displayed as:- ' + LoginTitle)
 	}
@@ -42,7 +56,22 @@ class LoginPage extends Base {
         const emailval = this.FilledEmail.getAttribute('value')
         expect(emailval).toHaveValueContaining(Emailid)
     }
-    
+
+    EnterLoginEmailid(LoginEmail)
+    {
+        this.loginEmail.waitForDisplayed()
+        this.loginEmail.setValue(LoginEmail)
+    }
+    EnterLoginPasswd(LoginPasswd)
+    {
+        this.loginpasswd.waitForDisplayed()
+        this.loginpasswd.setValue(LoginPasswd)
+    }
+    ClickSignInButton(){
+        this.SigninButton.waitForDisplayed()
+        this.SigninButton.click()
+    }
+
 }
 
 export default new LoginPage()

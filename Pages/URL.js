@@ -9,7 +9,8 @@ class App {
 	}
 	openLoginPage() {
         browser.url('http://automationpractice.com/index.php?controller=authentication&back=my-account')
-        browser.maximizeWindow()
+		browser.maximizeWindow()
+		
 	}
 }
 

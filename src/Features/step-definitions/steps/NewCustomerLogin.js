@@ -6,10 +6,15 @@ import MyAccount from '../../../../Pages/MyAccount'
 
 Given('User is on the Login Page', () => {
 	URL.openLoginPage()
+
+	
+	
 })
 
-Then(/^page title displayed as "(.*)"$/, LoginPage_Title => {
+Given(/^page title displayed as "(.*)"$/, LoginPage_Title => {
+
 	LoginPage.LoginPageTitle(LoginPage_Title)
+	
 })
 
 When(
@@ -67,11 +72,15 @@ When(/^Entered "(.*)" number and "(.*)"$/, (MobileNumber, Alias) => {
 When('User click on Register Button', () => {
 	AccountCreation.SubmitRegisterButton()
 })
-Then(/^User is landed on My Account Page and able to see "(.*)" text$/,(CreateText) => {
+Then(
+	/^User is landed on My Account Page and able to see "(.*)" text$/,
+	CreateText => {
 		LoginPage.checkAuthenticationtText(CreateText)
 	}
 )
-Then('Sigin button changed to Singout followed by Account name', () => {
-	MyAccount.CheckSignoutLink()
+Then('User Account is displayed next to Signout Link by Account name', () => {
 	MyAccount.CheckAccountLink()
+	MyAccount.CheckSignoutLink()
+
+	
 })
