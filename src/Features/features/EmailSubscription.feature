@@ -13,9 +13,9 @@ Feature: Newsletter Subscription Tests
         Then success subscription message is displayed
 
         Examples:
-        | mailid |
-        | r18@r.com |
-           
+            | mailid    |
+            | rd8@r.com |
+
 
 
     Scenario Outline: News letter Subscription - Already Registered Message
@@ -23,6 +23,6 @@ Feature: Newsletter Subscription Tests
         And the user click submit button
         Then Already subscribed message is displayed
 
-Examples:
-    | usedmailid  | 
-    | r1@r.com | 
+        Examples:
+            | usedmailid |
+            | r1@r.com   |
