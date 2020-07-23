@@ -70,7 +70,8 @@ class LoginPage extends Base {
     ClickSignInButton(){
         this.SigninButton.waitForDisplayed()
         this.SigninButton.click()
-    }
+	}
+	
 
 }
 

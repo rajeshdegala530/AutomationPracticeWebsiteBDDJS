@@ -1,10 +1,24 @@
 import URL from './URL'
 import Base from './Base'
+import assert from 'assert'
 
 class HomePage extends Base {
+	get bannerelement() {
+		return $('.banner')
+	}
 	get logoelement() {
 		//  return $('.logo.img-responsive')
 		return $('#header_logo')
+	}
+	get womenMenuOption() {
+		return $('a[title="Women"]')
+	}
+	get dressesMenuOption() {
+		return $('ul.menu-content >li >a[title="Dresses"]')
+	}
+
+	get tshirtMenuOption() {
+		return $('ul.menu-content >li >a[title="T-shirts"]')
 	}
 
 	CheckLogo() {
@@ -18,42 +32,29 @@ class HomePage extends Base {
 		expect(browser).toHaveTitle(title)
 	}
 
-	get bannerelement() {
-		return $('.banner')
-	}
-
 	CheckBanner() {
 		this.bannerelement.waitForDisplayed()
 		expect(this.bannerelement).toBeDisplayed()
 	}
 
-	
-}
-
-export default new HomePage()
-
-/* if (this.succesAlertMsg === true) {
-			this.succesAlertMsg.waitForDisplayed()
-			expect(this.succesAlertMsg).toBePresent()
-			
-		} else 
-		
-		{
-			this.notSuccessAlertMsg.waitForDisplayed()
-			expect(this.notSuccessAlertMsg).toBePresent()
-			console.log('Failure Message Displayed')
-		} */
-
-/* const successmsg = this.succesAlertMsg	
-		const failuremsg = this.notSuccessAlertMsg
-	
-		if (successmsg == true) {
-			expect(successmsg).toHaveTextContaining('successfully')
-			console.log(successmsg)
-		} 
-		else 
-		{
-			expect(failuremsg).toHaveTextContaining('already registered')
-			console.log(failuremsg)
+	clickMenuOption(menuOption) {
+		switch (menuOption) {
+			case 'Women':
+				this.womenMenuOption.click()
+				break
+			case 'Dresses':
+				this.dressesMenuOption.click()
+				break
+			case 'T-shirts':
+				this.tshirtMenuOption.click()
+				break
+			default:
+				console.log('Default Menu Option')
 		}
-		 */
+	}
+	CheckMenuPageTitle(MenuPageTitle) {
+		const Menupage = browser.getTitle()
+		assert.equal(Menupage, MenuPageTitle)
+	}
+}
+export default new HomePage()

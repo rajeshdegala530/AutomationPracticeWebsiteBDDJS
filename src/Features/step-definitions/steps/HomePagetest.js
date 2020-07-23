@@ -12,3 +12,11 @@ When('User to see logo is present on the site', () => {
 Then(/^should display the page title as "(.*)"$/, pagetitle => {
 	HomePage.CheckPageTitle(pagetitle)
 })
+
+When(/^User click on "(.*)" Menu item$/, (menuOption) => {
+	HomePage.clickMenuOption(menuOption)
+})
+
+Then(/^title of the page should be displayed as "(.*)"$/, (MenuPageTitle) => {
+	HomePage.CheckMenuPageTitle(MenuPageTitle)
+})
