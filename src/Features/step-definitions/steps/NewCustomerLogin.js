@@ -1,20 +1,16 @@
 import { Given, When, Then } from 'cucumber'
-import URL from '../../../../Pages/URL'
-import LoginPage from '../../../../Pages/LoginPage'
-import AccountCreation from '../../../../Pages/AccountCreation'
-import MyAccount from '../../../../Pages/MyAccount'
+import URL from '../../../PageObjects/URL'
+import LoginPage from '../../../PageObjects/LoginPage'
+import AccountCreation from '../../../PageObjects/AccountCreation'
+import MyAccount from '../../../PageObjects/MyAccount'
 
 Given('User is on the Login Page', () => {
 	URL.openLoginPage()
-
-	
-	
+	MyAccount.CheckSignoutLink()
 })
 
 Given(/^page title displayed as "(.*)"$/, LoginPage_Title => {
-
 	LoginPage.LoginPageTitle(LoginPage_Title)
-	
 })
 
 When(
@@ -80,7 +76,4 @@ Then(
 )
 Then('User Account is displayed next to Signout Link by Account name', () => {
 	MyAccount.CheckAccountLink()
-	MyAccount.CheckSignoutLink()
-
-	
 })

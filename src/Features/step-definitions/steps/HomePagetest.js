@@ -1,6 +1,6 @@
 import { Given, When, Then } from 'cucumber'
-import URL from '../../../../Pages/URL'
-import HomePage from '../../../../Pages/HomePage'
+import URL from '../../../PageObjects/URL'
+import HomePage from '../../../PageObjects/HomePage'
 
 Given('User is on HomePage of automationpractice.com', () => {
 	URL.openHomepage()

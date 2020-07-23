@@ -1,9 +1,5 @@
 Feature: Feature Name
 
-    # As a user ...
-    # I want to ...
-    # So that I ...
-
     Background: I am on the Customer Login Page
         Given User is on the Login Page
 

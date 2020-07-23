@@ -1,8 +1,8 @@
 import { Given, When, Then } from 'cucumber'
-import URL from '../../../../Pages/URL'
-import LoginPage from '../../../../Pages/LoginPage'
-import AccountCreation from '../../../../Pages/AccountCreation'
-import MyAccount from '../../../../Pages/MyAccount'
+import URL from '../../../PageObjects/URL'
+import LoginPage from '../../../PageObjects/LoginPage'
+import AccountCreation from '../../../PageObjects/AccountCreation'
+import MyAccount from '../../../PageObjects/MyAccount'
 
 When(/^user enter the "(.*)" and "(.*)"$/, (LoginEmail, LoginPasswd) => {
 	LoginPage.EnterLoginEmailid(LoginEmail)

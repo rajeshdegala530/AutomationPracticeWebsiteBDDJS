@@ -1,6 +1,6 @@
 
 import {Given, When, Then} from 'cucumber'
-import NewsLetterSubscriptionPage from '../../../../Pages/NewsLetterSubscriptionPage'
+import NewsLetterSubscriptionPage from '../../../PageObjects/NewsLetterSubscriptionPage'
 
 
 Then ('Already subscribed message is displayed',()=>{

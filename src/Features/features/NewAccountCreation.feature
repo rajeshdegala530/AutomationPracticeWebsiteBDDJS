@@ -1,13 +1,7 @@
 
 Feature: New Customer Signup Feature
-    # As a user ...
-    # I want to ...
-    # So that I ...
 
-
-
-
-     Scenario Outline:Create a New Customer Account
+    Scenario Outline:Create a New Customer Account
         Given User is on the Login Page
         And page title displayed as "Login - My Store"
         When User Enter the "<Emailid>" in the text box and click Create Button
@@ -25,7 +19,7 @@ Feature: New Customer Signup Feature
 
         Examples:
             | Emailid      | fname | lname | password | day | month | year | FirName | LasName | company | Addl1    | Addl2    | City    | State | zipcode | country | MobileNumber | Alias  |
-            | d29@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
-           | d30@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
+            | d31@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
+            | d32@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
 
 

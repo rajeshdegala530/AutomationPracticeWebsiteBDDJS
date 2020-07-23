@@ -1,6 +1,6 @@
 import {Then} from 'cucumber'
-import URL from '../../../../Pages/URL'
-import HomePage from '../../../PagesObjects/HomePage'
+import URL from '../../../PageObjects/URL'
+import HomePage from '../../../PageObjects/HomePage'
 
 Then('banner is displayed on top of the page',()=>{
 
