@@ -19,7 +19,7 @@ Feature: New Customer Signup Feature
 
         Examples:
             | Emailid      | fname | lname | password | day | month | year | FirName | LasName | company | Addl1    | Addl2    | City    | State | zipcode | country | MobileNumber | Alias  |
-            | d31@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
-            | d32@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
+            | d36@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
+            | d35@test.com | abc   | def   | test123  | 21  | 3     | 1985 | abc     | def     | testc   | Testadd1 | Testadd2 | Addison | 1     | 35540   | 21      | 010101010101 | myuser |
 
 

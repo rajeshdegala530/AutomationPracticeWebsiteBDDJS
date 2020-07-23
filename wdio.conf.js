@@ -17,7 +17,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './src/Features/features/NewAccountCreation.feature',
+        './src/Features/features/*.feature',
         
     ],
     // Patterns to exclude.
@@ -52,7 +52,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 3,
         //
         browserName: 'chrome',
       //  acceptInsecureCerts: true
@@ -68,7 +68,8 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'error',
+    coloredLogs: true,
     //
     // Set specific log levels per logger
     // loggers:
@@ -95,7 +96,7 @@ exports.config = {
     baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 20000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -156,7 +157,7 @@ exports.config = {
         // <string> (expression) only execute the features or scenarios with tags matching the expression
         tagExpression: '',
         // <number> timeout for step definitions
-        timeout: 20000,
+        timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
         ignoreUndefinedDefinitions: false
     },
