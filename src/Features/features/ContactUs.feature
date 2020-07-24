@@ -1,9 +1,5 @@
 Feature: Contact Us Form
 
-    # As a user
-    # I want to contact Customer Service by Accessing Contact Us form
-    # So that I ask general query or regarding my order
-
     Background: User is on the AutomationPractice.com - ContactUs Page
         Given User is on ConactUs page
 

@@ -1,7 +1,4 @@
 Feature: Newsletter Subscription Tests
-    # As a user
-    # I want to Subscribe for Email News Letters
-    # So that I can have latest offers and product info
 
     Background: User am on the home page
         Given User is on automationpractice.com

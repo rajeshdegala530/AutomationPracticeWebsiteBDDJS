@@ -20,7 +20,10 @@ class HomePage extends Base {
 	get tshirtMenuOption() {
 		return $('ul.menu-content >li >a[title="T-shirts"]')
 	}
-
+get productlink()
+{
+	return  $('a[title="Blouse"]')
+}
 	CheckLogo() {
 		this.logoelement.waitForDisplayed()
 		expect(this.logoelement).toBeDisplayed()
