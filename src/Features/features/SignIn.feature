@@ -12,8 +12,7 @@ Feature: Customer Login:
             | d5@test.com | test123     |
 
     Scenario Outline: To Display Error Message on Invalid Email address
-        When User enter "<invalidemail>" and "<invalidpassword>"
-        And  click on signin button to land on My account page
+        When User enter the "<LoginEmail>" and "<LoginPasswd>" and landed on My Account page
         Then Error Message is displayed
         Examples:
             | invalidemail      | invalidpassword |

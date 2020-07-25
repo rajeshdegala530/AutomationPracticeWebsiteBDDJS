@@ -5,8 +5,7 @@ import AccountCreation from '../../../PageObjects/AccountCreationPage'
 import MyAccount from '../../../PageObjects/MyAccountPage'
 import MyAccountPage from '../../../PageObjects/MyAccountPage'
 
-When(
-	/^User enter the "(.*)" and "(.*)" and landed on My Account page$/,(LoginEmail, LoginPasswd) => {
+When(/^User enter the "(.*)" and "(.*)" and landed on My Account page$/,(LoginEmail, LoginPasswd) => {
 		LoginPage.EnterLoginEmailid(LoginEmail)
 		LoginPage.EnterLoginPasswd(LoginPasswd)
 		LoginPage.ClickSignInButton()
@@ -17,7 +16,8 @@ Then('Error Message is displayed', () => {
 	MyAccountPage.CheckSubmitErrorMsg()
 })
 
-When(/^User enter "(.*)" and "(.*)"$/, (invalidemail, invalidpassword) => {
+/* When(/^User enter "(.*)" and "(.*)"$/, (invalidemail, invalidpassword) => {
 	LoginPage.EnterLoginEmailid(invalidemail)
 	LoginPage.EnterLoginPasswd(invalidpassword)
 })
+ */

@@ -17,7 +17,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './src/Features/features/Homepage.feature',
+        './src/Features/features/HomePage.feature',
         
     ],
     // Patterns to exclude.
@@ -133,7 +133,7 @@ exports.config = {
 		['allure', {
 			outputDir: './reports/allure-results',
 			disableWebdriverStepsReporting: false,
-			disableWebdriverScreenshotsReporting: false,
+			disableWebdriverScreenshotsReporting: true,
 		}]
 	],
 
