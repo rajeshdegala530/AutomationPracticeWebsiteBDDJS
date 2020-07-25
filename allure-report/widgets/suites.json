@@ -1,26 +1,26 @@
 {
   "total" : 2,
   "items" : [ {
-    "uid" : "9f1209c64c4f03b4336c6dbc57eb6ccc",
-    "name" : "Customer Login Feature: Customer Login with Valid Credentials",
+    "uid" : "e52d58961836e1df7fe396e67b483c70",
+    "name" : "Search Functionality Feature: Verify products are displayed on Successfull Search",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 7
     }
   }, {
-    "uid" : "5563bfa9f523741b15fb99a3c752c048",
-    "name" : "Customer Login Feature: To Display Error Message on Invalid Email address",
+    "uid" : "e697bee21f56953f637f91488e2a4f30",
+    "name" : "Search Functionality Feature: Verify No results page is displayed on Unsuccessful Search",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 7
     }
   } ]
 }

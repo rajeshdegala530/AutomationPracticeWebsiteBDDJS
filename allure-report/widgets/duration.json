@@ -1,80 +1,140 @@
 [ {
-  "uid" : "9d5f7d77a09a28c7",
+  "uid" : "93dd411364abdf8f",
+  "name" : "When User enter \"T-SHIRTS\" in the search input box",
+  "time" : {
+    "start" : 1595710135072,
+    "stop" : 1595710135518,
+    "duration" : 446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fad5dc1f853e1ce",
+  "name" : "When User enter \"floral\" in the search input box",
+  "time" : {
+    "start" : 1595710142837,
+    "stop" : 1595710143202,
+    "duration" : 365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba5372b8147cdfb6",
+  "name" : "When User enter \"EVENING DRESSES\" in the search input box",
+  "time" : {
+    "start" : 1595710137731,
+    "stop" : 1595710138308,
+    "duration" : 577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e77bdf991c2b3ae1",
+  "name" : "When User enter \"Dress\" in the search input box",
+  "time" : {
+    "start" : 1595710131953,
+    "stop" : 1595710132460,
+    "duration" : 507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da1267e9ce458552",
+  "name" : "When User enter \"shorts\" in the search input box",
+  "time" : {
+    "start" : 1595710140438,
+    "stop" : 1595710140851,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64d52879d8963638",
+  "name" : "And Click search submit button",
+  "time" : {
+    "start" : 1595710138308,
+    "stop" : 1595710139282,
+    "duration" : 974
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f14b1a072d4e57c",
   "name" : "Hook",
   "time" : {
-    "start" : 1595665553341,
-    "stop" : 1595665553342,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd3a63c29f9b9eb",
-  "name" : "Given User is on the Login Page",
-  "time" : {
-    "start" : 1595665515681,
-    "stop" : 1595665519995,
-    "duration" : 4314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e124b54af45adcc0",
-  "name" : "Then Error Message is displayed",
-  "time" : {
-    "start" : 1595665552744,
-    "stop" : 1595665553341,
-    "duration" : 597
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbd3dff254c1c14f",
-  "name" : "Then User Account is displayed next to Signout Link by Account name",
-  "time" : {
-    "start" : 1595665524144,
-    "stop" : 1595665524641,
-    "duration" : 497
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ffd2143dc46a2589",
-  "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
-  "time" : {
-    "start" : 1595665550389,
-    "stop" : 1595665552744,
-    "duration" : 2355
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75b5543a56c417de",
-  "name" : "Given User is on the Login Page",
-  "time" : {
-    "start" : 1595665549122,
-    "stop" : 1595665550389,
-    "duration" : 1267
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "15a1984aec6c17d3",
-  "name" : "When User enter the \"d5@test.com\" and \"test123\" and landed on My Account page",
-  "time" : {
-    "start" : 1595665519995,
-    "stop" : 1595665524144,
-    "duration" : 4149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0c01fc3d9bd1de7",
-  "name" : "Hook",
-  "time" : {
-    "start" : 1595665524642,
-    "stop" : 1595665524642,
+    "start" : 1595710146637,
+    "stop" : 1595710146637,
     "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56f26d3a478c4fd0",
+  "name" : "Then Products results are displayed on the page",
+  "time" : {
+    "start" : 1595710139282,
+    "stop" : 1595710139370,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f6f9544ed7745c0",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1595710139371,
+    "stop" : 1595710139371,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c250d9272d2f419",
+  "name" : "Given User is on automationpractice.com",
+  "time" : {
+    "start" : 1595710144115,
+    "stop" : 1595710145067,
+    "duration" : 952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d115d1d0a620d36a",
+  "name" : "And Click search submit button",
+  "time" : {
+    "start" : 1595710145563,
+    "stop" : 1595710146576,
+    "duration" : 1013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0cbb49c15d21267",
+  "name" : "When User enter \"fasdfas\" in the search input box",
+  "time" : {
+    "start" : 1595710145068,
+    "stop" : 1595710145563,
+    "duration" : 495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2590be6364675c2f",
+  "name" : "Then No results Message is displayed on the page",
+  "time" : {
+    "start" : 1595710146576,
+    "stop" : 1595710146636,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f64062e65acb6d36",
+  "name" : "Given User is on automationpractice.com",
+  "time" : {
+    "start" : 1595710136722,
+    "stop" : 1595710137731,
+    "duration" : 1009
   },
   "status" : "passed",
   "severity" : "normal"

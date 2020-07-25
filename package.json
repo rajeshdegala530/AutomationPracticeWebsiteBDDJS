@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "open-allure": "./node_modules/.bin/allure generate ./reports/allure-results --clean && allure open",
+    "video-clean":"./node_modules/.bin/cleandir ./reports/video-results",
     "allure-clean": "./node_modules/.bin/cleandir ./reports/allure-results",
     "screenshot-clean": "./node_modules/.bin/cleandir ./reports/Screenshots",
-    "test": "npm run allure-clean && npm run screenshot-clean && wdio wdio.conf.js && npm run open-allure"
+    "test": "npm run allure-clean && npm run video-clean && npm run screenshot-clean && wdio wdio.conf.js && npm run open-allure",
+    "test1": "wdio wdio.conf.js"
   },
   "keywords": [
     "Automation",
@@ -18,7 +20,9 @@
   ],
   "author": "Rajesh Degala",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "clean-dir": "^1.0.3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
@@ -31,7 +35,8 @@
     "@wdio/spec-reporter": "^6.3.0",
     "@wdio/sync": "^6.3.3",
     "chromedriver": "^84.0.0",
-    "clean-dir": "^1.0.3",
-    "wdio-chromedriver-service": "^6.0.3"
+    "prettier": "^2.0.5",
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-video-reporter": "^3.0.0"
   }
 }

@@ -1,8 +1,6 @@
 import { Given, When, Then } from 'cucumber'
 import URL from '../../../PageObjects/URL'
 import LoginPage from '../../../PageObjects/LoginPage'
-import AccountCreation from '../../../PageObjects/AccountCreationPage'
-import MyAccount from '../../../PageObjects/MyAccountPage'
 import MyAccountPage from '../../../PageObjects/MyAccountPage'
 import AccountCreationPage from '../../../PageObjects/AccountCreationPage'
 

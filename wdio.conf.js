@@ -1,3 +1,4 @@
+const video = require('wdio-video-reporter');
 exports.config = {
     //
     // ====================
@@ -17,7 +18,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './src/Features/features/SignIn.feature',
+        './src/Features/features/MyAccount.feature',
         
     ],
     // Patterns to exclude.
@@ -69,7 +70,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
-    coloredLogs: true,
+    //coloredLogs: true,
     //
     // Set specific log levels per logger
     // loggers:
@@ -128,12 +129,19 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
-    reporters: [
+    reporters: ['spec',
+   // [video, {
+    //    outputDir: './reports/video-results',
+    //    saveAllVideos: true,       // If true, also saves videos for successful test cases
+    //    videoSlowdownMultiplier:5,  // Higher to get slower videos, lower for faster videos [Value 1-100]
+    //    videoRenderTimeout: 5, // Max seconds to wait for a video to finish rendering
+   //   }],
 		['allure', {
 			outputDir: './reports/allure-results',
 			disableWebdriverStepsReporting: false,
-			disableWebdriverScreenshotsReporting: false,
+            disableWebdriverScreenshotsReporting: false,
+         // useCucumberStepReporter: true,
+
 		}]
 	],
 
@@ -240,7 +248,7 @@ exports.config = {
     /**
      * Runs after a Cucumber step
      */
-     afterStep: function ({ uri, feature, step }, context, { error, result, duration, passed, retries }) {
+    /**  afterStep: function ({ uri, feature, step }, context, { error, result, duration, passed, retries }) {
         {
             var date = Date.now()
             if (error || passed) {
@@ -250,9 +258,14 @@ exports.config = {
     /**
      * Runs after a Cucumber scenario
      */
-  //   afterScenario: function (uri, feature, scenario, result, sourceLocation, context) {
-  //  
-  //  },
+    /* afterScenario: function (uri, feature, scenario, result, sourceLocation, context) {
+      {
+    var date1 = Date.now()
+    if (error || passed) {
+        browser.saveScreenshot('./reports/Screenshots/ ' + date1 + '.png')
+    }
+} 
+   },
     /**
      * Runs after a Cucumber feature
      */
@@ -293,8 +306,8 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+     onComplete: function(exitCode, config, capabilities, results) {
+     },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

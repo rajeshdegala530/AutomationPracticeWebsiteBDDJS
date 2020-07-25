@@ -2,116 +2,194 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Customer Login Feature: Customer Login with Valid Credentials",
+    "name" : "Search Functionality Feature: Verify products are displayed on Successfull Search",
     "children" : [ {
-      "name" : "Given User is on the Login Page",
-      "uid" : "fd3a63c29f9b9eb",
-      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
+      "name" : "When User enter \"Dress\" in the search input box",
+      "uid" : "e77bdf991c2b3ae1",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
       "status" : "passed",
       "time" : {
-        "start" : 1595665515681,
-        "stop" : 1595665519995,
-        "duration" : 4314
+        "start" : 1595710131953,
+        "stop" : 1595710132460,
+        "duration" : 507
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "When User enter the \"d5@test.com\" and \"test123\" and landed on My Account page",
-      "uid" : "15a1984aec6c17d3",
-      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
+      "name" : "When User enter \"T-SHIRTS\" in the search input box",
+      "uid" : "93dd411364abdf8f",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
       "status" : "passed",
       "time" : {
-        "start" : 1595665519995,
-        "stop" : 1595665524144,
-        "duration" : 4149
+        "start" : 1595710135072,
+        "stop" : 1595710135518,
+        "duration" : 446
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Then User Account is displayed next to Signout Link by Account name",
-      "uid" : "cbd3dff254c1c14f",
-      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
+      "name" : "Given User is on automationpractice.com",
+      "uid" : "f64062e65acb6d36",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
       "status" : "passed",
       "time" : {
-        "start" : 1595665524144,
-        "stop" : 1595665524641,
-        "duration" : 497
+        "start" : 1595710136722,
+        "stop" : 1595710137731,
+        "duration" : 1009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter \"EVENING DRESSES\" in the search input box",
+      "uid" : "ba5372b8147cdfb6",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595710137731,
+        "stop" : 1595710138308,
+        "duration" : 577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And Click search submit button",
+      "uid" : "64d52879d8963638",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595710138308,
+        "stop" : 1595710139282,
+        "duration" : 974
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Products results are displayed on the page",
+      "uid" : "56f26d3a478c4fd0",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595710139282,
+        "stop" : 1595710139370,
+        "duration" : 88
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "a0c01fc3d9bd1de7",
-      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
+      "uid" : "3f6f9544ed7745c0",
+      "parentUid" : "340145e8e07d52eb6058eca2c479e3bd",
       "status" : "passed",
       "time" : {
-        "start" : 1595665524642,
-        "stop" : 1595665524642,
+        "start" : 1595710139371,
+        "stop" : 1595710139371,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "2f56fa2434f51c0d863308e12cb2c456"
+    "uid" : "340145e8e07d52eb6058eca2c479e3bd"
   }, {
-    "name" : "Customer Login Feature: To Display Error Message on Invalid Email address",
+    "name" : "Search Functionality Feature: Verify No results page is displayed on Unsuccessful Search",
     "children" : [ {
-      "name" : "Given User is on the Login Page",
-      "uid" : "75b5543a56c417de",
-      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
+      "name" : "When User enter \"shorts\" in the search input box",
+      "uid" : "da1267e9ce458552",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
       "status" : "passed",
       "time" : {
-        "start" : 1595665549122,
-        "stop" : 1595665550389,
-        "duration" : 1267
+        "start" : 1595710140438,
+        "stop" : 1595710140851,
+        "duration" : 413
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
-      "uid" : "ffd2143dc46a2589",
-      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
+      "name" : "When User enter \"floral\" in the search input box",
+      "uid" : "9fad5dc1f853e1ce",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
       "status" : "passed",
       "time" : {
-        "start" : 1595665550389,
-        "stop" : 1595665552744,
-        "duration" : 2355
+        "start" : 1595710142837,
+        "stop" : 1595710143202,
+        "duration" : 365
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Then Error Message is displayed",
-      "uid" : "e124b54af45adcc0",
-      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
+      "name" : "Given User is on automationpractice.com",
+      "uid" : "5c250d9272d2f419",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
       "status" : "passed",
       "time" : {
-        "start" : 1595665552744,
-        "stop" : 1595665553341,
-        "duration" : 597
+        "start" : 1595710144115,
+        "stop" : 1595710145067,
+        "duration" : 952
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter \"fasdfas\" in the search input box",
+      "uid" : "c0cbb49c15d21267",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595710145068,
+        "stop" : 1595710145563,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "And Click search submit button",
+      "uid" : "d115d1d0a620d36a",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595710145563,
+        "stop" : 1595710146576,
+        "duration" : 1013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then No results Message is displayed on the page",
+      "uid" : "2590be6364675c2f",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595710146576,
+        "stop" : 1595710146636,
+        "duration" : 60
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "9d5f7d77a09a28c7",
-      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
+      "uid" : "2f14b1a072d4e57c",
+      "parentUid" : "78228b1515bcef6d01035abebb310e86",
       "status" : "passed",
       "time" : {
-        "start" : 1595665553341,
-        "stop" : 1595665553342,
-        "duration" : 1
+        "start" : 1595710146637,
+        "stop" : 1595710146637,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "775c205a0520ec7900ac88762e10f5ee"
+    "uid" : "78228b1515bcef6d01035abebb310e86"
   } ]
 }
