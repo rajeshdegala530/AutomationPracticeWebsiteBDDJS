@@ -1,4 +1,4 @@
-Feature: Email Subscription:
+Feature: Email Subscription Feature
 
     Background: User am on the home page
         Given User is on automationpractice.com

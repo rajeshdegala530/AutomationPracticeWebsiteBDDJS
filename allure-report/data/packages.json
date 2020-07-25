@@ -2,103 +2,116 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Home Page Functionality Validations: User to validate logo and page title",
+    "name" : "Customer Login Feature: Customer Login with Valid Credentials",
     "children" : [ {
-      "name" : "Given User is on HomePage of automationpractice.com",
-      "uid" : "8197fd2bfbd241a9",
-      "parentUid" : "3f706cf2880b7c79517a1e3826545966",
+      "name" : "Given User is on the Login Page",
+      "uid" : "fd3a63c29f9b9eb",
+      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
       "status" : "passed",
       "time" : {
-        "start" : 1595655382856,
-        "stop" : 1595655386492,
-        "duration" : 3636
+        "start" : 1595665515681,
+        "stop" : 1595665519995,
+        "duration" : 4314
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "When User to see logo is present on the site",
-      "uid" : "2975b053c4311653",
-      "parentUid" : "3f706cf2880b7c79517a1e3826545966",
+      "name" : "When User enter the \"d5@test.com\" and \"test123\" and landed on My Account page",
+      "uid" : "15a1984aec6c17d3",
+      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
       "status" : "passed",
       "time" : {
-        "start" : 1595655386492,
-        "stop" : 1595655387226,
-        "duration" : 734
+        "start" : 1595665519995,
+        "stop" : 1595665524144,
+        "duration" : 4149
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Then should display the page title as \"My Store\"",
-      "uid" : "65926819d4744cb4",
-      "parentUid" : "3f706cf2880b7c79517a1e3826545966",
+      "name" : "Then User Account is displayed next to Signout Link by Account name",
+      "uid" : "cbd3dff254c1c14f",
+      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
       "status" : "passed",
       "time" : {
-        "start" : 1595655387226,
-        "stop" : 1595655387928,
-        "duration" : 702
+        "start" : 1595665524144,
+        "stop" : 1595665524641,
+        "duration" : 497
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "54d2316781da9f62",
-      "parentUid" : "3f706cf2880b7c79517a1e3826545966",
+      "uid" : "a0c01fc3d9bd1de7",
+      "parentUid" : "2f56fa2434f51c0d863308e12cb2c456",
       "status" : "passed",
       "time" : {
-        "start" : 1595655387929,
-        "stop" : 1595655387929,
+        "start" : 1595665524642,
+        "stop" : 1595665524642,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "3f706cf2880b7c79517a1e3826545966"
+    "uid" : "2f56fa2434f51c0d863308e12cb2c456"
   }, {
-    "name" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed",
+    "name" : "Customer Login Feature: To Display Error Message on Invalid Email address",
     "children" : [ {
-      "name" : "Given User is on HomePage of automationpractice.com",
-      "uid" : "6295bb369ded70ba",
-      "parentUid" : "93cbae636d40b0113dbde74861de7693",
+      "name" : "Given User is on the Login Page",
+      "uid" : "75b5543a56c417de",
+      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
       "status" : "passed",
       "time" : {
-        "start" : 1595655387949,
-        "stop" : 1595655390203,
-        "duration" : 2254
+        "start" : 1595665549122,
+        "stop" : 1595665550389,
+        "duration" : 1267
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Then banner is displayed on top of the page",
-      "uid" : "80e37d8cdca871ac",
-      "parentUid" : "93cbae636d40b0113dbde74861de7693",
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "ffd2143dc46a2589",
+      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
       "status" : "passed",
       "time" : {
-        "start" : 1595655390204,
-        "stop" : 1595655390894,
-        "duration" : 690
+        "start" : 1595665550389,
+        "stop" : 1595665552744,
+        "duration" : 2355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Error Message is displayed",
+      "uid" : "e124b54af45adcc0",
+      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665552744,
+        "stop" : 1595665553341,
+        "duration" : 597
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "d29d9f787d025943",
-      "parentUid" : "93cbae636d40b0113dbde74861de7693",
+      "uid" : "9d5f7d77a09a28c7",
+      "parentUid" : "775c205a0520ec7900ac88762e10f5ee",
       "status" : "passed",
       "time" : {
-        "start" : 1595655390894,
-        "stop" : 1595655390894,
-        "duration" : 0
+        "start" : 1595665553341,
+        "stop" : 1595665553342,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "93cbae636d40b0113dbde74861de7693"
+    "uid" : "775c205a0520ec7900ac88762e10f5ee"
   } ]
 }

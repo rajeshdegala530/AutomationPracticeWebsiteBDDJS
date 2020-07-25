@@ -1,5 +1,5 @@
 
-Feature: New Account Creation: 
+Feature: New Account Creation Feature
 
     Scenario Outline:Create a New Customer Account
         Given User is on the Login Page

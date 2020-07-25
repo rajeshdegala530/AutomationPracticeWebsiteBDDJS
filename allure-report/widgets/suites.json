@@ -1,8 +1,8 @@
 {
   "total" : 2,
   "items" : [ {
-    "uid" : "4390b5871ab80011561133ce3e968b2a",
-    "name" : "Home Page Functionality Validations: User to validate logo and page title",
+    "uid" : "9f1209c64c4f03b4336c6dbc57eb6ccc",
+    "name" : "Customer Login Feature: Customer Login with Valid Credentials",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,15 +12,15 @@
       "total" : 4
     }
   }, {
-    "uid" : "fa88e5909bb60ef019fbbd643564ceb9",
-    "name" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed",
+    "uid" : "5563bfa9f523741b15fb99a3c752c048",
+    "name" : "Customer Login Feature: To Display Error Message on Invalid Email address",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     }
   } ]
 }

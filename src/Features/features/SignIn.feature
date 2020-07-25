@@ -1,4 +1,4 @@
-Feature: Customer Login:
+Feature: Customer Login Feature
 
     Background: I am on the Customer Login Page
         Given User is on the Login Page

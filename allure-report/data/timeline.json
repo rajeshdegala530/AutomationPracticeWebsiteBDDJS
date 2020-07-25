@@ -4,118 +4,456 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Given User is on HomePage of automationpractice.com",
-      "uid" : "8197fd2bfbd241a9",
+      "name" : "Given User is on the Login Page",
+      "uid" : "75b5543a56c417de",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595655382856,
-        "stop" : 1595655386492,
-        "duration" : 3636
+        "start" : 1595665549122,
+        "stop" : 1595665550389,
+        "duration" : 1267
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "When User to see logo is present on the site",
-      "uid" : "2975b053c4311653",
+      "name" : "Then Error Message is displayed",
+      "uid" : "3dbfbf10969dc7ba",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595655386492,
-        "stop" : 1595655387226,
-        "duration" : 734
+        "start" : 1595665532063,
+        "stop" : 1595665532575,
+        "duration" : 512
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Hook",
-      "uid" : "46ffe146d4053a0e",
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "81848e4be23fe973",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595655382841,
-        "stop" : 1595655382855,
-        "duration" : 14
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Given User is on HomePage of automationpractice.com",
-      "uid" : "6295bb369ded70ba",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595655387949,
-        "stop" : 1595655390203,
-        "duration" : 2254
+        "start" : 1595665542136,
+        "stop" : 1595665544630,
+        "duration" : 2494
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Hook",
-      "uid" : "d29d9f787d025943",
+      "uid" : "e71a8e974ae41e6e",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595655390894,
-        "stop" : 1595655390894,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "54d2316781da9f62",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595655387929,
-        "stop" : 1595655387929,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "d05af94c6ee82a94",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1595655387948,
-        "stop" : 1595655387949,
+        "start" : 1595665540873,
+        "stop" : 1595665540874,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Then banner is displayed on top of the page",
-      "uid" : "80e37d8cdca871ac",
+      "name" : "Hook",
+      "uid" : "38c280c3cb73cfaf",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595655390204,
-        "stop" : 1595655390894,
-        "duration" : 690
+        "start" : 1595665545119,
+        "stop" : 1595665545119,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Then should display the page title as \"My Store\"",
-      "uid" : "65926819d4744cb4",
+      "name" : "Then Error Message is displayed",
+      "uid" : "80c0ddc8e788d070",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1595655387226,
-        "stop" : 1595655387928,
-        "duration" : 702
+        "start" : 1595665540367,
+        "stop" : 1595665540873,
+        "duration" : 506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "ecdb50d642673139",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665534375,
+        "stop" : 1595665536485,
+        "duration" : 2110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Error Message is displayed",
+      "uid" : "d0614803dff3abca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665548617,
+        "stop" : 1595665549094,
+        "duration" : 477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "b36ef826bc33d490",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665529912,
+        "stop" : 1595665532063,
+        "duration" : 2151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "651bed2fd7746317",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665532576,
+        "stop" : 1595665532576,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given User is on the Login Page",
+      "uid" : "fa208739545a0a4f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665545119,
+        "stop" : 1595665546327,
+        "duration" : 1208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "545ddc808f0203a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665546327,
+        "stop" : 1595665548617,
+        "duration" : 2290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "c3f8838db1388bf5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665515672,
+        "stop" : 1595665515679,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e43a133608379273",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665524672,
+        "stop" : 1595665524672,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "a0c01fc3d9bd1de7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665524642,
+        "stop" : 1595665524642,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given User is on the Login Page",
+      "uid" : "31b6a7f0fc269cb8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665536987,
+        "stop" : 1595665538098,
+        "duration" : 1111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given User is on the Login Page",
+      "uid" : "6016c1b708ef65ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665524672,
+        "stop" : 1595665529912,
+        "duration" : 5240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter the \"d5@test.com\" and \"test123\" and landed on My Account page",
+      "uid" : "15a1984aec6c17d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665519995,
+        "stop" : 1595665524144,
+        "duration" : 4149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "9c05c8baead810e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665536987,
+        "stop" : 1595665536987,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "df79a6833aadbb4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665540893,
+        "stop" : 1595665540893,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given User is on the Login Page",
+      "uid" : "fd3a63c29f9b9eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665515681,
+        "stop" : 1595665519995,
+        "duration" : 4314
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Error Message is displayed",
+      "uid" : "5e20bce520649f21",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665536485,
+        "stop" : 1595665536970,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then User Account is displayed next to Signout Link by Account name",
+      "uid" : "cbd3dff254c1c14f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665524144,
+        "stop" : 1595665524641,
+        "duration" : 497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "d8f2dfb46fed45b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665549094,
+        "stop" : 1595665549095,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Error Message is displayed",
+      "uid" : "a531adda1e18804c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665544630,
+        "stop" : 1595665545092,
+        "duration" : 462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "5e4006991f3a8490",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665538098,
+        "stop" : 1595665540367,
+        "duration" : 2269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given User is on the Login Page",
+      "uid" : "94d2be878eb6f7ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665532602,
+        "stop" : 1595665534375,
+        "duration" : 1773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "b6fa05c542cac2ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665532601,
+        "stop" : 1595665532602,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Given User is on the Login Page",
+      "uid" : "9f13a7d01a7cc4e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665540894,
+        "stop" : 1595665542136,
+        "duration" : 1242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+      "uid" : "ffd2143dc46a2589",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665550389,
+        "stop" : 1595665552744,
+        "duration" : 2355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then Error Message is displayed",
+      "uid" : "e124b54af45adcc0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665552744,
+        "stop" : 1595665553341,
+        "duration" : 597
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e8d33355a4cf6403",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665549121,
+        "stop" : 1595665549121,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "9d5f7d77a09a28c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665553341,
+        "stop" : 1595665553342,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e38e8c6617de581e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665545092,
+        "stop" : 1595665545093,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "8057b2f74dd1b0c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595665536970,
+        "stop" : 1595665536970,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,

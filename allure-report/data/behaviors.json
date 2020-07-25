@@ -2,92 +2,105 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Given User is on HomePage of automationpractice.com",
-    "uid" : "8197fd2bfbd241a9",
+    "name" : "Given User is on the Login Page",
+    "uid" : "fd3a63c29f9b9eb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1595655382856,
-      "stop" : 1595655386492,
-      "duration" : 3636
+      "start" : 1595665515681,
+      "stop" : 1595665519995,
+      "duration" : 4314
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "When User to see logo is present on the site",
-    "uid" : "2975b053c4311653",
+    "name" : "When User enter the \"d5@test.com\" and \"test123\" and landed on My Account page",
+    "uid" : "15a1984aec6c17d3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1595655386492,
-      "stop" : 1595655387226,
-      "duration" : 734
+      "start" : 1595665519995,
+      "stop" : 1595665524144,
+      "duration" : 4149
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "Then should display the page title as \"My Store\"",
-    "uid" : "65926819d4744cb4",
+    "name" : "Then User Account is displayed next to Signout Link by Account name",
+    "uid" : "cbd3dff254c1c14f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1595655387226,
-      "stop" : 1595655387928,
-      "duration" : 702
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Hook",
-    "uid" : "54d2316781da9f62",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1595655387929,
-      "stop" : 1595655387929,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Given User is on HomePage of automationpractice.com",
-    "uid" : "6295bb369ded70ba",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1595655387949,
-      "stop" : 1595655390203,
-      "duration" : 2254
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Then banner is displayed on top of the page",
-    "uid" : "80e37d8cdca871ac",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1595655390204,
-      "stop" : 1595655390894,
-      "duration" : 690
+      "start" : 1595665524144,
+      "stop" : 1595665524641,
+      "duration" : 497
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "d29d9f787d025943",
+    "uid" : "a0c01fc3d9bd1de7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1595655390894,
-      "stop" : 1595655390894,
+      "start" : 1595665524642,
+      "stop" : 1595665524642,
       "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Given User is on the Login Page",
+    "uid" : "75b5543a56c417de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595665549122,
+      "stop" : 1595665550389,
+      "duration" : 1267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "When User enter the \"<LoginEmail>\" and \"<LoginPasswd>\" and landed on My Account page",
+    "uid" : "ffd2143dc46a2589",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595665550389,
+      "stop" : 1595665552744,
+      "duration" : 2355
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then Error Message is displayed",
+    "uid" : "e124b54af45adcc0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595665552744,
+      "stop" : 1595665553341,
+      "duration" : 597
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Hook",
+    "uid" : "9d5f7d77a09a28c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1595665553341,
+      "stop" : 1595665553342,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,4 +1,4 @@
-Feature: Home Page
+Feature: Home Page Feature
 
 Background: To Load AutomationPractice.com
 Given User is on HomePage of automationpractice.com

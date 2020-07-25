@@ -1,4 +1,4 @@
-Feature: My Account:
+Feature: My Account Feature
 
     Background: To Check My Acount functioanlity
         Given User is on the Login Page

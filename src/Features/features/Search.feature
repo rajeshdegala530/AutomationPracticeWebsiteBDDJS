@@ -1,5 +1,5 @@
 
-Feature: Search Functionality:
+Feature: Search Functionality Feature
 
     Background: I am on the home page
         Given User is on automationpractice.com
