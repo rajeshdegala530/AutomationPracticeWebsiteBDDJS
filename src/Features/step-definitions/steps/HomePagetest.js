@@ -13,10 +13,14 @@ Then(/^should display the page title as "(.*)"$/, pagetitle => {
 	HomePage.CheckPageTitle(pagetitle)
 })
 
-When(/^User click on "(.*)" Menu item$/, (menuOption) => {
+When(/^User click on "(.*)" Menu item$/, menuOption => {
 	HomePage.clickMenuOption(menuOption)
 })
 
-Then(/^title of the page should be displayed as "(.*)"$/, (MenuPageTitle) => {
+Then(/^title of the page should be displayed as "(.*)"$/, MenuPageTitle => {
 	HomePage.CheckMenuPageTitle(MenuPageTitle)
+})
+
+Then('banner is displayed on top of the page', () => {
+	HomePage.CheckBanner()
 })

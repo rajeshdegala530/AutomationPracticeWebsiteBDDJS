@@ -17,7 +17,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './src/Features/features/Checkout.feature',
+        './src/Features/features/Homepage.feature',
         
     ],
     // Patterns to exclude.
@@ -68,7 +68,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'error',
+    logLevel: 'info',
     coloredLogs: true,
     //
     // Set specific log levels per logger
@@ -129,6 +129,13 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: ['spec'],
+    reporters: [
+		['allure', {
+			outputDir: './reports/allure-results',
+			disableWebdriverStepsReporting: false,
+			disableWebdriverScreenshotsReporting: false,
+		}]
+	],
 
 
     //
@@ -175,7 +182,8 @@ exports.config = {
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
      */
-    // onPrepare: function (config, capabilities) {
+     //onPrepare: function (config, capabilities) {
+    //    
     // },
     /**
      * Gets executed before a worker process is spawned and can be used to initialise specific service
@@ -204,8 +212,9 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    // },
+     before: function (capabilities, specs) {
+        browser.maximizeWindow();
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -231,13 +240,19 @@ exports.config = {
     /**
      * Runs after a Cucumber step
      */
-    // afterStep: function ({ uri, feature, step }, context, { error, result, duration, passed, retries }) {
-    // },
+     afterStep: function ({ uri, feature, step }, context, { error, result, duration, passed, retries }) {
+        {
+            var date = Date.now()
+            if (error || passed) {
+                browser.saveScreenshot('./reports/Screenshots/ ' + date + '.png')
+            }
+    } },
     /**
      * Runs after a Cucumber scenario
      */
-    // afterScenario: function (uri, feature, scenario, result, sourceLocation, context) {
-    // },
+  //   afterScenario: function (uri, feature, scenario, result, sourceLocation, context) {
+  //  
+  //  },
     /**
      * Runs after a Cucumber feature
      */

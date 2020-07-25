@@ -1,15 +1,15 @@
 class App {
 	openHomepage() {
 		browser.url('http://automationpractice.com/index.php')
-		browser.maximizeWindow()
+		//browser.maximizeWindow()
 	}
 	openConactUsPage() {
 		browser.url('http://automationpractice.com/index.php?controller=contact')
-		browser.maximizeWindow()
+		//browser.maximizeWindow()
 	}
 	openLoginPage() {
         browser.url('http://automationpractice.com/index.php?controller=authentication&back=my-account')
-		browser.maximizeWindow()
+		//browser.maximizeWindow()
 		
 	}
 }
