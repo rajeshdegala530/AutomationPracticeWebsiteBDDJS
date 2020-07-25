@@ -1,4 +1,4 @@
-Feature: Contact Us Form
+Feature: Contact Us Form:
 
     Background: User is on the AutomationPractice.com - ContactUs Page
         Given User is on ConactUs page

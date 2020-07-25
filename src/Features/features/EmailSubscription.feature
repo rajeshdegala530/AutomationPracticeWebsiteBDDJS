@@ -1,4 +1,4 @@
-Feature: Newsletter Subscription Tests
+Feature: Email Subscription:
 
     Background: User am on the home page
         Given User is on automationpractice.com

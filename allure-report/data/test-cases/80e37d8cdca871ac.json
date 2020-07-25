@@ -1,0 +1,197 @@
+{
+  "uid" : "80e37d8cdca871ac",
+  "name" : "Then banner is displayed on top of the page",
+  "fullName" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed.Then banner is displayed on top of the page",
+  "historyId" : "2639cdc3c753e0d0356dade68e2815c1",
+  "time" : {
+    "start" : 1595655390204,
+    "stop" : 1595655390894,
+    "duration" : 690
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595655390206,
+        "stop" : 1595655390241,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c27bbc017e50ca81",
+        "name" : "Request",
+        "source" : "c27bbc017e50ca81.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "636f4fc789610bc1",
+        "name" : "Response",
+        "source" : "636f4fc789610bc1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1595655390244,
+        "stop" : 1595655390255,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cf17384592883e8",
+        "name" : "Request",
+        "source" : "8cf17384592883e8.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "10192e9ca4ba609c",
+        "name" : "Response",
+        "source" : "10192e9ca4ba609c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595655390255,
+        "stop" : 1595655390270,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b23e45444562e7",
+        "name" : "Request",
+        "source" : "7b23e45444562e7.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "396da11260a0b809",
+        "name" : "Response",
+        "source" : "396da11260a0b809.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1595655390274,
+        "stop" : 1595655390287,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0a88085f126663a",
+        "name" : "Request",
+        "source" : "e0a88085f126663a.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "b527280236b0dc02",
+        "name" : "Response",
+        "source" : "b527280236b0dc02.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1595655390289,
+        "stop" : 1595655390887,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc33410f4b3b363c",
+        "name" : "Screenshot",
+        "source" : "bc33410f4b3b363c.png",
+        "type" : "image/png",
+        "size" : 925290
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then banner is displayed on top of the page"
+  }, {
+    "name" : "package",
+    "value" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80e37d8cdca871ac.json",
+  "parameterValues" : [ "chrome" ]
+}

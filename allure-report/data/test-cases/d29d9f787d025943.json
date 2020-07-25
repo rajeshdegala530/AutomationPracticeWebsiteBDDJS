@@ -1,0 +1,66 @@
+{
+  "uid" : "d29d9f787d025943",
+  "name" : "Hook",
+  "fullName" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed.Hook",
+  "historyId" : "5160f76754b8c16b8ae7ad7f7fa84cf",
+  "time" : {
+    "start" : 1595655390894,
+    "stop" : 1595655390894,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d05af94c6ee82a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655387948,
+        "stop" : 1595655387949,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d29d9f787d025943.json",
+  "parameterValues" : [ "chrome" ]
+}

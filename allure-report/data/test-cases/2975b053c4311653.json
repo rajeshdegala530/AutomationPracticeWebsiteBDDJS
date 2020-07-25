@@ -1,0 +1,197 @@
+{
+  "uid" : "2975b053c4311653",
+  "name" : "When User to see logo is present on the site",
+  "fullName" : "Home Page Functionality Validations: User to validate logo and page title.When User to see logo is present on the site",
+  "historyId" : "3d910ff07cd92abf359a1b47b7cc0edf",
+  "time" : {
+    "start" : 1595655386492,
+    "stop" : 1595655387226,
+    "duration" : 734
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595655386494,
+        "stop" : 1595655386526,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c3101c0d85c425d",
+        "name" : "Request",
+        "source" : "6c3101c0d85c425d.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "3e843e30d672c3d9",
+        "name" : "Response",
+        "source" : "3e843e30d672c3d9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1595655386539,
+        "stop" : 1595655386554,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bfb0f6d1c907a14a",
+        "name" : "Request",
+        "source" : "bfb0f6d1c907a14a.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "ce3ccb9ff69715d5",
+        "name" : "Response",
+        "source" : "ce3ccb9ff69715d5.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595655386554,
+        "stop" : 1595655386568,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb75bcfbe6a60eaf",
+        "name" : "Request",
+        "source" : "bb75bcfbe6a60eaf.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "b3fbe4b886a74e82",
+        "name" : "Response",
+        "source" : "b3fbe4b886a74e82.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1595655386575,
+        "stop" : 1595655386591,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "777f6c51138e8dea",
+        "name" : "Request",
+        "source" : "777f6c51138e8dea.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "6faff3ede8d98363",
+        "name" : "Response",
+        "source" : "6faff3ede8d98363.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1595655386595,
+        "stop" : 1595655387219,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91104041e2c789d0",
+        "name" : "Screenshot",
+        "source" : "91104041e2c789d0.png",
+        "type" : "image/png",
+        "size" : 925290
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page Functionality Validations: User to validate logo and page title"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page Functionality Validations: User to validate logo and page title"
+  }, {
+    "name" : "testMethod",
+    "value" : "When User to see logo is present on the site"
+  }, {
+    "name" : "package",
+    "value" : "Home Page Functionality Validations: User to validate logo and page title"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2975b053c4311653.json",
+  "parameterValues" : [ "chrome" ]
+}

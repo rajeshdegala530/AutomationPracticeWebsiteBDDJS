@@ -1,4 +1,4 @@
-Feature: Home Page Functionality Validations
+Feature: Home Page:
 
 Background: To Load AutomationPractice.com
 Given User is on HomePage of automationpractice.com

@@ -1,0 +1,66 @@
+{
+  "uid" : "54d2316781da9f62",
+  "name" : "Hook",
+  "fullName" : "Home Page Functionality Validations: User to validate logo and page title.Hook",
+  "historyId" : "15cef0393f112c2c4220c0ac3785dda0",
+  "time" : {
+    "start" : 1595655387929,
+    "stop" : 1595655387929,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home Page Functionality Validations: User to validate logo and page title"
+  }, {
+    "name" : "testClass",
+    "value" : "Home Page Functionality Validations: User to validate logo and page title"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Home Page Functionality Validations: User to validate logo and page title"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "46ffe146d4053a0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655382841,
+        "stop" : 1595655382855,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54d2316781da9f62.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,5 +1,5 @@
 
-Feature: Navigation Feature
+Feature: Navigation Feature:
 
     Background: I am on the home page
         Given User is on automationpractice.com
