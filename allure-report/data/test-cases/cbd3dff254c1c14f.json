@@ -1,0 +1,143 @@
+{
+  "uid" : "cbd3dff254c1c14f",
+  "name" : "Then User Account is displayed next to Signout Link by Account name",
+  "fullName" : "Customer Login Feature: Customer Login with Valid Credentials.Then User Account is displayed next to Signout Link by Account name",
+  "historyId" : "2be7b2cde8b0ef820af602d6c6a4cf48",
+  "time" : {
+    "start" : 1595665524144,
+    "stop" : 1595665524641,
+    "duration" : 497
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595665524145,
+        "stop" : 1595665524186,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "748364d42aed8fea",
+        "name" : "Request",
+        "source" : "748364d42aed8fea.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "ff38129b9e03ad7c",
+        "name" : "Response",
+        "source" : "ff38129b9e03ad7c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1595665524195,
+        "stop" : 1595665524244,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb7a9cf7fea313e1",
+        "name" : "Request",
+        "source" : "bb7a9cf7fea313e1.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "b5dd93743722c913",
+        "name" : "Response",
+        "source" : "b5dd93743722c913.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1595665524253,
+        "stop" : 1595665524639,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5f7121190231471",
+        "name" : "Screenshot",
+        "source" : "f5f7121190231471.png",
+        "type" : "image/png",
+        "size" : 116996
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer Login Feature: Customer Login with Valid Credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer Login Feature: Customer Login with Valid Credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then User Account is displayed next to Signout Link by Account name"
+  }, {
+    "name" : "package",
+    "value" : "Customer Login Feature: Customer Login with Valid Credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbd3dff254c1c14f.json",
+  "parameterValues" : [ "chrome" ]
+}

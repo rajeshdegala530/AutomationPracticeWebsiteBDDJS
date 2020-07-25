@@ -1,0 +1,162 @@
+{
+  "uid" : "31b6a7f0fc269cb8",
+  "name" : "Given User is on the Login Page",
+  "fullName" : "Customer Login Feature: To Display Error Message on Invalid Email address.Given User is on the Login Page",
+  "historyId" : "91f0fdab7692f56ea59e0dce3c995572",
+  "time" : {
+    "start" : 1595665536987,
+    "stop" : 1595665538098,
+    "duration" : 1111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1595665536991,
+        "stop" : 1595665537646,
+        "duration" : 655
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15e9d560a156c17c",
+        "name" : "Request",
+        "source" : "15e9d560a156c17c.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595665537647,
+        "stop" : 1595665537665,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83b9640e161e0a44",
+        "name" : "Request",
+        "source" : "83b9640e161e0a44.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "a3f6fd8322199840",
+        "name" : "Response",
+        "source" : "a3f6fd8322199840.json",
+        "type" : "application/json",
+        "size" : 1049
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1595665537668,
+        "stop" : 1595665537685,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4e21fe9e366d6a0",
+        "name" : "Request",
+        "source" : "b4e21fe9e366d6a0.json",
+        "type" : "application/json",
+        "size" : 52
+      }, {
+        "uid" : "1db74dc3a783e5a3",
+        "name" : "Response",
+        "source" : "1db74dc3a783e5a3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1595665537687,
+        "stop" : 1595665538096,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b357f1b96a604198",
+        "name" : "Screenshot",
+        "source" : "b357f1b96a604198.png",
+        "type" : "image/png",
+        "size" : 111466
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer Login Feature: To Display Error Message on Invalid Email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer Login Feature: To Display Error Message on Invalid Email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given User is on the Login Page"
+  }, {
+    "name" : "package",
+    "value" : "Customer Login Feature: To Display Error Message on Invalid Email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31b6a7f0fc269cb8.json",
+  "parameterValues" : [ "chrome" ]
+}

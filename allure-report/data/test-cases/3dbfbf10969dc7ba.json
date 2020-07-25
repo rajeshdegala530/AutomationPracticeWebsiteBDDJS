@@ -1,0 +1,195 @@
+{
+  "uid" : "3dbfbf10969dc7ba",
+  "name" : "Then Error Message is displayed",
+  "fullName" : "Customer Login Feature: To Display Error Message on Invalid Email address.Then Error Message is displayed",
+  "historyId" : "a795e77aed912c15d697952e80a0af60",
+  "time" : {
+    "start" : 1595665532063,
+    "stop" : 1595665532575,
+    "duration" : 512
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595665532064,
+        "stop" : 1595665532100,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78532587b618cca6",
+        "name" : "Request",
+        "source" : "78532587b618cca6.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "af59319dffd929c",
+        "name" : "Response",
+        "source" : "af59319dffd929c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1595665532103,
+        "stop" : 1595665532120,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27c2e410fb613f06",
+        "name" : "Request",
+        "source" : "27c2e410fb613f06.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "7b668fa804b25de7",
+        "name" : "Response",
+        "source" : "7b668fa804b25de7.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595665532121,
+        "stop" : 1595665532162,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77836b242d6265ed",
+        "name" : "Request",
+        "source" : "77836b242d6265ed.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "56243f02e35baf7f",
+        "name" : "Response",
+        "source" : "56243f02e35baf7f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1595665532166,
+        "stop" : 1595665532188,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87291e0fefee0ce0",
+        "name" : "Request",
+        "source" : "87291e0fefee0ce0.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "705d64b424377699",
+        "name" : "Response",
+        "source" : "705d64b424377699.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1595665532191,
+        "stop" : 1595665532574,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63c86f28c10c4aa0",
+        "name" : "Screenshot",
+        "source" : "63c86f28c10c4aa0.png",
+        "type" : "image/png",
+        "size" : 107094
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer Login Feature: To Display Error Message on Invalid Email address"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer Login Feature: To Display Error Message on Invalid Email address"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Error Message is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Customer Login Feature: To Display Error Message on Invalid Email address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dbfbf10969dc7ba.json",
+  "parameterValues" : [ "chrome" ]
+}
