@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Home Page Functionality Validations: User to validate logo and page title",
+    "children" : [ {
+      "name" : "Given User is on HomePage of automationpractice.com",
+      "uid" : "8197fd2bfbd241a9",
+      "parentUid" : "4390b5871ab80011561133ce3e968b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655382856,
+        "stop" : 1595655386492,
+        "duration" : 3636
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When User to see logo is present on the site",
+      "uid" : "2975b053c4311653",
+      "parentUid" : "4390b5871ab80011561133ce3e968b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655386492,
+        "stop" : 1595655387226,
+        "duration" : 734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then should display the page title as \"My Store\"",
+      "uid" : "65926819d4744cb4",
+      "parentUid" : "4390b5871ab80011561133ce3e968b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655387226,
+        "stop" : 1595655387928,
+        "duration" : 702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "54d2316781da9f62",
+      "parentUid" : "4390b5871ab80011561133ce3e968b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655387929,
+        "stop" : 1595655387929,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "4390b5871ab80011561133ce3e968b2a"
+  }, {
+    "name" : "Home Page Functionality Validations: User should be able to validat the Banner is Displayed",
+    "children" : [ {
+      "name" : "Given User is on HomePage of automationpractice.com",
+      "uid" : "6295bb369ded70ba",
+      "parentUid" : "fa88e5909bb60ef019fbbd643564ceb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655387949,
+        "stop" : 1595655390203,
+        "duration" : 2254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then banner is displayed on top of the page",
+      "uid" : "80e37d8cdca871ac",
+      "parentUid" : "fa88e5909bb60ef019fbbd643564ceb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655390204,
+        "stop" : 1595655390894,
+        "duration" : 690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "d29d9f787d025943",
+      "parentUid" : "fa88e5909bb60ef019fbbd643564ceb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595655390894,
+        "stop" : 1595655390894,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "fa88e5909bb60ef019fbbd643564ceb9"
+  } ]
+}

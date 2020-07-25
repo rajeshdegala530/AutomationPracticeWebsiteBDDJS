@@ -1,4 +1,4 @@
-Feature: Checkout Feature
+Feature: Checkout:
 
 
 

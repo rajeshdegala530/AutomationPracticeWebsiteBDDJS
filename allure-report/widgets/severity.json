@@ -1,0 +1,71 @@
+[ {
+  "uid" : "6295bb369ded70ba",
+  "name" : "Given User is on HomePage of automationpractice.com",
+  "time" : {
+    "start" : 1595655387949,
+    "stop" : 1595655390203,
+    "duration" : 2254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d29d9f787d025943",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1595655390894,
+    "stop" : 1595655390894,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d2316781da9f62",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1595655387929,
+    "stop" : 1595655387929,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8197fd2bfbd241a9",
+  "name" : "Given User is on HomePage of automationpractice.com",
+  "time" : {
+    "start" : 1595655382856,
+    "stop" : 1595655386492,
+    "duration" : 3636
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2975b053c4311653",
+  "name" : "When User to see logo is present on the site",
+  "time" : {
+    "start" : 1595655386492,
+    "stop" : 1595655387226,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80e37d8cdca871ac",
+  "name" : "Then banner is displayed on top of the page",
+  "time" : {
+    "start" : 1595655390204,
+    "stop" : 1595655390894,
+    "duration" : 690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65926819d4744cb4",
+  "name" : "Then should display the page title as \"My Store\"",
+  "time" : {
+    "start" : 1595655387226,
+    "stop" : 1595655387928,
+    "duration" : 702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

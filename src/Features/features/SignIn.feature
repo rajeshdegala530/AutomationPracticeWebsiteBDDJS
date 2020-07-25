@@ -1,12 +1,11 @@
-Feature: Feature Name
+Feature: Customer Login:
 
     Background: I am on the Customer Login Page
         Given User is on the Login Page
 
 
     Scenario Outline: Customer Login with Valid Credentials
-        When user enter the "<LoginEmail>" and "<LoginPasswd>"
-        And click on signin button to land on My account page
+        When User enter the "<LoginEmail>" and "<LoginPasswd>" and landed on My Account page
         Then User Account is displayed next to Signout Link by Account name
         Examples:
             | LoginEmail  | LoginPasswd |
