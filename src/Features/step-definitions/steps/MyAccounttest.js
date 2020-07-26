@@ -15,6 +15,8 @@ Then(/^Page name is "(.*)" and passed validations$/, MyAccountPageTitle => {
 	MyAccountPage.CheckPageTitle(MyAccountPageTitle)
 })
 /* 
+
+
 When('User land on Credit Slips by selecting My Credit Slips link', () => {
 	MyAccountPage.SelectCreditSlipsPage()
 })
